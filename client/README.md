@@ -1,1 +1,1 @@
-# AIpodcastgenerator
+# Virtual Influencer
