@@ -1,2 +1,142 @@
 #landingPage {
+  background-color: #311361;
+  color: white;
+  background-image: url("../Assets/landingpage/leftPortion/Glare.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  .leftPortion {
+    .col {
+      // border: 2px grey solid;
+      position: relative;
+    }
+    .girlImg {
+      width: 50%;
+    }
+    .live {
+      position: absolute;
+      right: 3%;
+      top: 7%;
+      width: 10%;
+      height: 16%;
+    }
+    .InstaStat {
+      position: absolute;
+      right: 43%;
+      height: 65%;
+      top: 28%;
+    }
+    h1 {
+      font-family: DM Sans;
+      font-size: 64px;
+      font-weight: 700;
+      line-height: 83px;
+      letter-spacing: 0px;
+      text-align: center;
+    }
+    .btn {
+      width: 150px;
+      height: 57.69230651855469px;
+      top: 862px;
+      left: 400px;
+
+      font-family: DM Sans;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 20px;
+      letter-spacing: 0px;
+      text-align: center;
+      background: #4339f2 !important;
+    }
+  }
+  .rightPortion {
+    .col {
+      min-width: 25vw;
+    }
+    img {
+      width: 50%;
+    }
+    .testimonial1 {
+      width: 100%;
+    }
+    .hairGirl {
+      width: 75%;
+    }
+    .likes {
+      width: 105%;
+    }
+    .boy {
+      width: 60%;
+    }
+    .glassesGirl {
+      width: 100%;
+    }
+    .Testimonial2 {
+      width: 100%;
+    }
+    .dashingBoy {
+      width: 65%;
+    }
+    .dashingBoy {
+      width: 65%;
+    }
+    .likeFrame {
+      width: 100%;
+    }
+    .portfolio {
+      width: 110%;
+    }
+  }
+
+  @media (max-width: 992px) {
+    /* Your CSS styles for screens less than large */
+    .leftPortion {
+      .girlSection {
+        // display: flex;
+        justify-content: center;
+      }
+      .col {
+        // border: 2px grey solid;
+        position: relative;
+      }
+      .girlImg {
+        width: 50%;
+      }
+      .live {
+        position: absolute;
+        right: 30%;
+        top: 8%;
+        width: 10%;
+        height: 16%;
+      }
+      .InstaStat {
+        position: absolute;
+        right: 68%;
+        height: 65%;
+        top: 28%;
+      }
+      h1 {
+        font-family: DM Sans;
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 83px;
+        letter-spacing: 0px;
+        text-align: center;
+      }
+      .btn {
+        width: 150px;
+        height: 57.69230651855469px;
+        top: 862px;
+        left: 400px;
+
+        font-family: DM Sans;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0px;
+        text-align: center;
+        background: #4339f2 !important;
+      }
+    }
+  }
 }
