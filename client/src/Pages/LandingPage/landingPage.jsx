@@ -11,6 +11,7 @@ import Testimonial2 from "../../Assets/landingpage/rightPortion/Testimonial.png"
 import DashingBoy from "../../Assets/landingpage/rightPortion/dashingBoy.png";
 import LikesFrame from "../../Assets/landingpage/rightPortion/LikesFrame.png";
 import Portfolio from "../../Assets/landingpage/rightPortion/Portfolio06 2.png";
+import { Link } from "react-router-dom";
 function LandingPage() {
   return (
     <div id="landingPage" className="container-fluid">
@@ -31,7 +32,9 @@ function LandingPage() {
                 <button className="btn btn-primary my-3 my-2">
                   Start for Free
                 </button>
-                <button className="btn btn-primary mt-3 mb-5">Login</button>
+                <Link to={"/login"} className="btn btn-primary mt-3 mb-5 pt-3">
+                  Login
+                </Link>
               </div>
             </div>
           </div>

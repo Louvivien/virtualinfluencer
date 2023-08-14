@@ -1,4 +1,4 @@
-#login {
+#register {
   background-color: #311361;
   color: white;
   background-image: url("../Assets/register/Glare.png");
@@ -55,24 +55,5 @@
     line-height: 40px;
     letter-spacing: 0em;
     text-align: center;
-  }
-  .rememberMe {
-    //styleName: Checkbox;
-    font-family: SF Pro Display;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 20px;
-    letter-spacing: 0.30000001192092896px;
-    text-align: left;
-  }
-  .forgotPassword {
-    //styleName: Checkbox;
-    font-family: SF Pro Display;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 20px;
-    letter-spacing: 0.30000001192092896px;
-    text-align: right;
-    text-decoration: none;
   }
 }
